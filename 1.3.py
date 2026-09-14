@@ -60,11 +60,12 @@ dz = dp *rlugrad(z)
 dw = x.T @ dz
 db = dz.sum(axis = 0)
 
-#
+#output of forward pass and mse loss
 print("Forward pass output: ")
 print(q)
 print("Mean Squared Error Loss: ", l)
 
+#gradient of loss w.r.t weights and biases of the two layers
 print("dL/dw  (shape", dw.shape, "):")
 print(dw)      
 print("dL/db  (shape", db.shape, "):")
