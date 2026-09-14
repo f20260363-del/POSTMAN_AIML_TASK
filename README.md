@@ -1,4 +1,5 @@
 Name: Anirudh Jutu
+
 Task Description: Building a small artificial neural network and implementing backpropagation manually, using NumPy and Scikit-Learn.
 
 Setup Instructions: 
